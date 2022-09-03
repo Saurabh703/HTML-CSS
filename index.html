@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <img src="./Images/logo.png" alt="logo">
+    <!-- <h2>Boxed water🌢</h2> -->
+    <div class="nav_links">
+        <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Why Boxed Water</li>
+            <li>Contact</li> 
+        </ul>
+         <button>Shop</button>
+    </div>
+</nav>
+<div class="text-box">
+    <h1>Better than Plastic & Aluminium</h1>
+    <p>Refresh. Renew. Rejuvenate. The Subtle, Natural Fruit Flavours Brighten Our Award-Winning Water In A 92% Plant-Based Box.</p>
+    <img src="./Images/Boxed-water-.png">
+</div>
+<div class="remain">
+    <h2>Together, we can make an impact</h2>
+    <p>Tell All Your Friends That You're Giving Up Plastic Bottles. We've Put Together Our Favourite March in The Ultimate Plegde Pack With A T-Shirt, Bracelet, Stickers, And Bags</p>
+    <button>Shop</button>
+</div>
+<div class="bottle">
+    <img src="./Images/bottle.jpg">
+    <h2 class="bottle_icon">No-Plastic Pledge</h2>
+    <p>Tell All Your Friends That You're Giving Up Plastic Bottle.</p>
+    <img src="./Images/images.jfif">
+    <h2 class="icon">Beach Cleanups</h2>
+    <p>Tell All Your Friends That You're Giving Up Plastic Bottle.</p>
+</div>
+</section>
+</body>
+<script>
+    var today = new Date();
+    var day = today.getDate();
+    var daylist = [
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thrusday,
+        Friday,
+        Saturday
+    ];
+    console.log('Today is'+ daylist[day]);
+    var minutes = today.getHours();
+    var perpand = (hour >= 12) ? "PM" : "Am";
+    hour = (hour >= 12) ? hour - 12: hour;
+     if (hour === 0 && perpand === 'PM')
+     {
+         hour = 12;
+         perpand='Noon';
+     } else {
+         hour=12;
+         perpand='PM';
+     }
+     if ( hour === 0 && perpand=== 'AM') {
+         hour = 12; perpand='Midnight';
+     }
+     else {
+         hour=12;
+         perpand='AM';
+     }
+     console.log("Current Time: " + hour + perpand + ":" + minutes);
+</script>
+</html>

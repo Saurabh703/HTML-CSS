@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F9F3F3;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    /* text-transform: uppercase; */
+    margin: 0 40px;
+    /* margin-bottom: 7rem; */
+}
+
+nav {
+    display: flex;
+    padding: 8px 15px;
+    margin-right: 120px;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    background-color: #fff;
+    width: 80%;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+img {
+    width: 90px;
+    height: 70px;
+    background-color: #fff;
+}
+
+.nav_links {
+    flex: 1;
+    text-align: right;
+    background-color: #fff;
+}
+
+.nav_links ul {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8p 12px;
+    position: relative;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.nav_links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav_links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+
+.nav_links ul li:hover::after {
+    width: 100%;
+}
+
+nav button {
+    color: #fff;
+    width: 75px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: black;
+}
+
+.text-box {
+    margin-left: 150px;
+    /* margin-top: 3rem; */
+    padding-top:  230px;
+}
+
+.text-box h1 {
+    font-size: 36px;
+}
+
+.text-box p{
+    margin: 20px 0; 
+    margin-right: 58rem;
+}
+
+.text-box img {
+    margin: 30px 120px 45px 60px;
+    width: 80%;
+    height: 35rem;
+}
+
+.remain {
+    margin: 30px 300px 0 0;
+}
+
+.remain h2 {
+    text-transform: uppercase;
+    margin: 0 650px 0 150px;
+    font-size: 26px;
+}
+
+.remain p{
+    margin: 20px 570px 20px 150px;
+    letter-spacing: 0.046rem;
+}
+
+.remain button {
+    margin: 2px 0 0 150px;
+    width: 90px;
+    height: 35px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: black;
+}
+
+.bottle {
+    margin: -200px 0 30px 700px;
+}
+
+.bottle_icon{
+    margin: -85px 0 5px 360px;
+    margin-left: 360px;
+}
+
+.bottle p{
+    margin-bottom: 3rem;
+    margin-left: 360px;
+    margin-right: 14rem;
+}
+
+.bottle img{
+    border-radius: 4px;
+    margin-left: 15.2rem;
+
+}
+
+.icon{
+    margin: -85px 0 5px 360px;
+    margin-left: 360px;
+}
